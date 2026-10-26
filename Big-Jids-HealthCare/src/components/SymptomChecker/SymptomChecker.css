@@ -1,0 +1,64 @@
+.symptom-page {
+  padding: 24px;
+}
+
+.symptom-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.symptom-form input,
+.symptom-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+  font-size: 14px;
+  outline: none;
+}
+
+.symptom-form button {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.summary-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.consult-link-wrap {
+  margin-top: 20px;
+}
+
+.consult-link {
+  display: inline-block;
+  text-decoration: none;
+  background: #27ae60;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 12px;
+}

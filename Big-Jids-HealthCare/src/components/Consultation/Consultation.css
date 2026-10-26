@@ -1,0 +1,234 @@
+.consultation-page {
+  padding: 24px;
+}
+
+.consultation-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.consultation-tabs button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  background: #e8eef9;
+  cursor: pointer;
+}
+
+.consultation-tabs .active {
+  background: #2f80ed;
+  color: #fff;
+}
+
+.chat-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 18px;
+}
+
+.chat-list {
+  background: #fff;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.chat-list-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.chat-list-item.selected {
+  background: #eef5ff;
+}
+
+.chat-list-item img {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+.chat-box {
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.chat-header {
+  padding: 16px;
+  border-bottom: 1px solid #eef2f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doctor-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.doctor-meta img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.chat-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-actions button {
+  border: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.doctor-profile-card {
+  padding: 14px 16px;
+  background: #f8fbff;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.chat-messages {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background: #f7f9fc;
+}
+
+.message-row {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.message-row.user {
+  justify-content: flex-end;
+}
+
+.message-row.doctor {
+  justify-content: flex-start;
+}
+
+.message-bubble {
+  max-width: 65%;
+  background: #ffffff;
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.message-row.user .message-bubble {
+  background: #2f80ed;
+  color: white;
+}
+
+.message-bubble span {
+  display: block;
+  font-size: 12px;
+  margin-top: 6px;
+  opacity: 0.7;
+}
+
+.medication-message {
+  background: #fff5e9;
+  border: 1px solid #ffd9a8;
+  padding: 14px;
+  border-radius: 14px;
+  max-width: 75%;
+}
+
+.medication-message button {
+  margin-top: 10px;
+  border: none;
+  background: #27ae60;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  border-top: 1px solid #eef2f7;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+}
+
+.chat-input-area button {
+  border: none;
+  background: #2f80ed;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.doctor-card {
+  background: #fff;
+  padding: 18px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.doctor-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.doctor-card button,
+.ai-box button {
+  border: none;
+  background: #2f80ed;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ai-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.ai-box textarea {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  border: 1px solid #dbe3ef;
+  border-radius: 12px;
+}
+
+.empty-chat,
+.empty-messages {
+  color: #6b7280;
+}

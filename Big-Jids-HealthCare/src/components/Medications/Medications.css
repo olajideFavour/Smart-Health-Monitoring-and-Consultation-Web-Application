@@ -1,0 +1,46 @@
+.medications-page {
+  padding: 24px;
+}
+
+.calendar-box {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.calendar-box input {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid #dbe3ef;
+  border-radius: 10px;
+}
+
+.medications-list {
+  display: grid;
+  gap: 16px;
+}
+
+.med-card {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.med-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.med-actions button {
+  border: none;
+  background: #27ae60;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
